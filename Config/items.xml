@@ -1,0 +1,84 @@
+<configs>
+    <set xpath="/items/item[contains(@name, '44MagnumBullet')]/@Stacknumber">1000</set>
+    <set xpath="/items/item[contains(@name, '762mmBullet')]/@Stacknumber">1000</set>
+    <set xpath="/items/item[contains(@name, 'ShotgunShell')]/@Stacknumber">1000</set>
+    <set xpath="/items/item[contains(@name, 'ShotgunSlug')]/@Stacknumber">1000</set>
+    <set xpath="/items/item[contains(@name, '9mmBullet')]/@Stacknumber">2000</set>
+    <set xpath="/items/item[@name='drinkJarEmpty']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarRiverWater']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarBoiledWater']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarPureMineralWater']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarYuccaJuice']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarGoldenRodTea']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarRedTea']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarCoffee']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarBeer']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarGrainAlcohol']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='schematicMaster']/@Stacknumber">25</set>
+    <set xpath="/items/item[@name='resourceSewingKit']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='resourceTestosteroneExtract']/@Stacknumber">50</set>
+    <set xpath="/items/item[@name='resourceRepairKit']/@Stacknumber">250</set>
+    <set xpath="/items/item[@name='resourceRadiator']/@Stacknumber">50</set>
+    <set xpath="/items/item[@name='smallEngine']/@Stacknumber">6</set>
+    <set xpath="/items/item[@name='casinoCoin']/@Stacknumber">100000</set>
+    <set xpath="/items/item[@name='toolBellows']/@Stacknumber">10</set>
+    <set xpath="/items/item[@name='toolAnvil']/@Stacknumber">10</set>
+    <set xpath="/items/item[@name='toolForgeCrucible']/@Stacknumber">10</set>
+    <set xpath="/items/item[@name='resourceLockPick']/@Stacknumber">150</set>
+	<append xpath="/items">
+        <item name="Carpenter's Knife">
+	        <property name="EconomicValue" value="7000"/>
+	        <property name="Tags" value="melee,light,tool,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
+	        <property name="HoldType" value="36"/>
+	        <property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab"/>
+	        <property name="RepairTools" value="resourceRepairKit"/>
+	        <property name="CustomIcon" value="meleeToolKnifeIron"/>
+        	<property name="FuelValue" value="100"/>
+	        <property name="ItemTypeIcon" value="computer"/>
+	        <property name="Material" value="Mmetal"/>
+	        <property name="DegradationBreaksAfter" value="false"/>
+	        <property name="SoundJammed" value="ItemNeedsRepair"/>
+	        <property name="SoundDestroy" value="wooddestroy1"/>
+	        <property name="Stacknumber" value="1"/>
+	        <property name="ShowQuality" value="true"/>
+	        <property class="Action0">
+		        <property name="Class" value="DynamicMelee"/>
+		        <property name="Sphere" value=".15"/>
+		        <property name="ToolCategory.Butcher" value="0" param1="4"/>
+		        <property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		        <property name="Sound_start" value="swoosh"/>
+	        </property>
+	        <property class="Action1">
+		        <property name="Class" value="DynamicMelee"/>
+		        <property name="Sphere" value=".15"/>
+		        <property name="ToolCategory.Butcher" value="0" param1="4"/>
+		        <property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		        <property name="Sound_start" value="swoosh"/>
+	        </property>
+
+	        <effect_group tiered="false">
+		        <passive_effect name="MaxRange" operation="base_set" value="3.0"/>
+		        <passive_effect name="BlockRange" operation="base_set" value="5"/>
+		        <passive_effect name="DegradationMax" operation="base_set" value="1000" />
+		        <passive_effect name="DegradationPerUse" operation="base_set" value="1" />
+
+		        <passive_effect name="EntityDamage" operation="base_set" value="50"/>
+		        <passive_effect name="BlockDamage" operation="base_set" value="1000"/>
+		        <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+		        <passive_effect name="StaminaLoss" operation="base_set" value="8" tags="primary"/>
+		        <passive_effect name="ModSlots" operation="base_set" value="4"/>
+	        </effect_group>
+
+	        <effect_group tiered="false">
+		        <passive_effect name="EntityDamage" operation="perc_add" value="5" tags="secondary"/>
+		        <passive_effect name="BlockDamage" operation="perc_add" value="5" tags="secondary"/>
+		        <passive_effect name="StaminaLoss" operation="base_add" value="12" tags="secondary"/>
+		        <triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="knockdown"/>
+	        </effect_group>
+        </item>
+    </append>
+</configs>

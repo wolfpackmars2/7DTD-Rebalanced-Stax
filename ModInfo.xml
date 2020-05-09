@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RebalancedStacks" />
+		<Description value="Modifies a few loot stack sizes. Alpha 18.4" />
+		<Author value="wolfpack" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>
