@@ -1,38 +1,39 @@
 <configs>
-    <set xpath="/items/item[contains(@name, '44MagnumBullet')]/@Stacknumber">1000</set>
-    <set xpath="/items/item[contains(@name, '762mmBullet')]/@Stacknumber">1000</set>
-    <set xpath="/items/item[contains(@name, 'ShotgunShell')]/@Stacknumber">1000</set>
-    <set xpath="/items/item[contains(@name, 'ShotgunSlug')]/@Stacknumber">1000</set>
-    <set xpath="/items/item[contains(@name, '9mmBullet')]/@Stacknumber">2000</set>
-    <set xpath="/items/item[@name='drinkJarEmpty']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarRiverWater']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarBoiledWater']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarPureMineralWater']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarYuccaJuice']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarGoldenRodTea']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarRedTea']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarCoffee']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarBeer']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarGrainAlcohol']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='schematicMaster']/@Stacknumber">25</set>
-    <set xpath="/items/item[@name='resourceSewingKit']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='resourceTestosteroneExtract']/@Stacknumber">50</set>
-    <set xpath="/items/item[@name='resourceRepairKit']/@Stacknumber">250</set>
-    <set xpath="/items/item[@name='resourceRadiator']/@Stacknumber">50</set>
-    <set xpath="/items/item[@name='smallEngine']/@Stacknumber">6</set>
-    <set xpath="/items/item[@name='casinoCoin']/@Stacknumber">100000</set>
-    <set xpath="/items/item[@name='toolBellows']/@Stacknumber">10</set>
-    <set xpath="/items/item[@name='toolAnvil']/@Stacknumber">10</set>
-    <set xpath="/items/item[@name='toolForgeCrucible']/@Stacknumber">10</set>
-    <set xpath="/items/item[@name='resourceLockPick']/@Stacknumber">150</set>
+    <set xpath="/items/item[contains(@name, '44MagnumBullet')]/property[@name='Stacknumber']/@value">1000</set>
+    <set xpath="/items/item[contains(@name, '762mmBullet')]/property[@name='Stacknumber']/@value">1000</set>
+    <set xpath="/items/item[contains(@name, 'ShotgunShell')]/property[@name='Stacknumber']/@value">1000</set>
+    <set xpath="/items/item[contains(@name, 'ShotgunSlug')]/property[@name='Stacknumber']/@value">1000</set>
+    <set xpath="/items/item[contains(@name, '9mmBullet')]/property[@name='Stacknumber']/@value">2000</set>
+    <set xpath="/items/item[contains(@name, 'SC Ammo')]/property[@name='Stacknumber']/@value">2000</set>
+    <set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">25</set>
+    <set xpath="/items/item[@name='resourceSewingKit']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='resourceTestosteroneExtract']/property[@name='Stacknumber']/@value">50</set>
+    <set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>
+    <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">6</set>
+    <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">100000</set>
+    <set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">10</set>
+    <set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">10</set>
+    <set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">10</set>
+    <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">150</set>
 	<append xpath="/items">
         <item name="Carpenter's Knife">
 	        <property name="EconomicValue" value="7000"/>
-	        <property name="Tags" value="melee,light,tool,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
+            <property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	        <property name="HoldType" value="36"/>
 	        <property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab"/>
 	        <property name="RepairTools" value="resourceRepairKit"/>
@@ -47,17 +48,46 @@
 	        <property name="ShowQuality" value="true"/>
 	        <property class="Action0">
 		        <property name="Class" value="DynamicMelee"/>
-		        <property name="Sphere" value=".15"/>
-		        <property name="ToolCategory.Butcher" value="0" param1="4"/>
-		        <property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		        <property name="Damage_type" value="Slashing"/>
+		        <property name="Sphere" value=".1"/>
 		        <property name="Sound_start" value="swoosh"/>
+		        <property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		        <property name="ToolCategory.Butcher" value="0" param1="5"/>
+		        <property name="Sound_harvesting" value="open_animal" param1="organic"/>
+
+		        <property name="UseGrazingHits" value="true"/>
+		        <property name="GrazeStart" value=".25"/>
+		        <property name="GrazeEnd" value=".35"/>
+		        <property name="SwingDegrees" value="90"/>
+		        <property name="SwingAngle" value="90"/>
+		        <property class="HitSounds">
+			        <property name="Override0" value="organic" param1="metalstaborganic"/>
+		        </property>
+		        <property class="GrazeSounds">
+			        <property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		        </property>
 	        </property>
 	        <property class="Action1">
 		        <property name="Class" value="DynamicMelee"/>
-		        <property name="Sphere" value=".15"/>
-		        <property name="ToolCategory.Butcher" value="0" param1="4"/>
-		        <property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		        <property name="Damage_type" value="Slashing"/>
+		        <property name="Sphere" value=".1"/>
 		        <property name="Sound_start" value="swoosh"/>
+		        <property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		        <property name="ToolCategory.Butcher" value="0" param1="5"/>
+		        <property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		        <property name="UsePowerAttackAnimation" value="true"/>
+
+		        <property name="UseGrazingHits" value="true"/>
+		        <property name="GrazeStart" value=".2"/>
+		        <property name="GrazeEnd" value=".3"/>
+		        <property name="SwingDegrees" value="80"/>
+		        <property name="SwingAngle" value="140"/>
+		        <property class="HitSounds">
+			        <property name="Override0" value="organic" param1="metalstaborganic"/>
+		        </property>
+		        <property class="GrazeSounds">
+			        <property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		        </property>
 	        </property>
 
 	        <effect_group tiered="false">
@@ -65,7 +95,7 @@
 		        <passive_effect name="BlockRange" operation="base_set" value="5"/>
 		        <passive_effect name="DegradationMax" operation="base_set" value="1000" />
 		        <passive_effect name="DegradationPerUse" operation="base_set" value="1" />
-
+                <passive_effect name="AttacksPerMinute" operation="base_set" value="120"/>
 		        <passive_effect name="EntityDamage" operation="base_set" value="50"/>
 		        <passive_effect name="BlockDamage" operation="base_set" value="1000"/>
 		        <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
@@ -74,6 +104,7 @@
 	        </effect_group>
 
 	        <effect_group tiered="false">
+                <passive_effect name="AttacksPerMinute" operation="base_set" value="120"/>
 		        <passive_effect name="EntityDamage" operation="perc_add" value="5" tags="secondary"/>
 		        <passive_effect name="BlockDamage" operation="perc_add" value="5" tags="secondary"/>
 		        <passive_effect name="StaminaLoss" operation="base_add" value="12" tags="secondary"/>
