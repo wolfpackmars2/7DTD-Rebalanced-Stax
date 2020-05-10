@@ -25,7 +25,6 @@
     <set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>
     <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">6</set>
-    <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">50000</set>
     <set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">10</set>
     <set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">10</set>
     <set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">10</set>
