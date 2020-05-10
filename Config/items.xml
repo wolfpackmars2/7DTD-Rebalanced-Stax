@@ -32,7 +32,7 @@
     <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">150</set>
 	<append xpath="/items">
         <item name="Digging Knife">
-	        <property name="EconomicValue" value="7000"/>
+	        <property name="EconomicValue" value="70000"/>
             <property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	        <property name="HoldType" value="36"/>
 	        <property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/hunting_knifePrefab.prefab"/>
