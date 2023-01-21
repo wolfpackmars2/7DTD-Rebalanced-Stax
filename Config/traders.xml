@@ -1,5 +1,0 @@
-<configs>
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT5SecretStash']">
-        <item name="Carpenter's Knife" prob="0.05"/>
-    </append>
-</configs>
