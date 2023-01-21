@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+resourceCrushedSandBundle,items,Item,,,Stack of Sand (6000)
+resourceCrushedSandBundleDesc,items,Item,,,This is a compact stack of sand. Use this item to open and unpack it.
+resourceClayLumpBundle,items,Item,,,Stack of Clay (6000)
+resourceClayLumpBundleDesc,items,Item,,,This is a compact stack of clay. Use this item to open and unpack it.
