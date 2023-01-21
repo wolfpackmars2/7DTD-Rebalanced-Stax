@@ -4,7 +4,7 @@
     <set xpath="/items/item[contains(@name, 'ShotgunShell')]/property[@name='Stacknumber']/@value">1000</set>
     <set xpath="/items/item[contains(@name, 'ShotgunSlug')]/property[@name='Stacknumber']/@value">1000</set>
     <set xpath="/items/item[contains(@name, '9mmBullet')]/property[@name='Stacknumber']/@value">2000</set>
-    <set xpath="/items/item[contains(@name, 'SC Ammo')]/property[@name='Stacknumber']/@value">2000</set>
+	<!-- <set xpath="/items/item[contains(@name, 'SteelCasing')]/property[@name='Stacknumber']/@value">2000</set> -->
     <set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">250</set>
@@ -15,7 +15,7 @@
     <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">250</set>
-    <set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">250</set>
+	<!-- <set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">250</set> -->
     <set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">250</set>
@@ -25,12 +25,31 @@
     <set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>
     <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">6</set>
+    <set xpath="/items/item[@name='carBattery']/property[@name='Stacknumber']/@value">6</set>
+    <set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">6</set>
     <set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">10</set>
     <set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">10</set>
     <set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">10</set>
     <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">150</set>
+	<set xpath="/items/item[@name='ammoBundleMaster']/property[@class='Action0']/property[@name='Create_item_count']/@value">1000</set>
 	<append xpath="/items">
-        <item name="Carpenter's Knife">
+		<item name="resourceCrushedSandBundle">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceCrushedSand"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceCrushedSand"/>
+				<property name="Create_item_count" value="6000"/>
+			</property>
+		</item>
+		<item name="resourceClayLumpBundle">
+			<property name="Extends" value="resourceRockSmallBundle"/>
+			<property name="CustomIcon" value="resourceClayLump"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceClayLump"/>
+				<property name="Create_item_count" value="6000"/>
+			</property>
+		</item>
+        <!--<item name="Carpenter's Knife">
 	        <property name="EconomicValue" value="70000"/>
             <property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
 	        <property name="HoldType" value="36"/>
@@ -109,6 +128,6 @@
 		        <passive_effect name="StaminaLoss" operation="base_add" value="12" tags="secondary"/>
 		        <triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="knockdown"/>
 	        </effect_group>
-        </item>
-    </append>
+		</item>-->
+	</append>
 </configs>

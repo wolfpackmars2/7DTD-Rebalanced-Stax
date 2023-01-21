@@ -1,0 +1,10 @@
+<configs>
+    <append xpath="/recipes">
+        <recipe name="resourceCrushedSandBundle" count="1" craft_time="10" tags="learnable">
+            <ingredient name="resourceCrushedSand" count="6000"/>
+        </recipe>
+        <recipe name="resourceClayLumpBundle" count="1" craft_time="10" tags="learnable">
+            <ingredient name="resourceClayLump" count="6000"/>
+        </recipe>
+    </append>
+</configs>
