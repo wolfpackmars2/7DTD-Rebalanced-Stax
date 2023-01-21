@@ -1,3 +1,4 @@
 <configs>
-    <append xpath="/progression/perks/perk[@name='perkArtOfMiningPallets']/effect_group/passive_effect[@name='RecipeTagUnlocked']/property[@name='tags']/@value">,resourceCrushedSandBundle,resourceClayLumpBundle</append>
+    <!-- /progression/perks/perk/effect_group/passive_effect@tags -->
+    <append xpath="/progression/perks/perk[@name='perkArtOfMiningPallets']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,resourceCrushedSandBundle,resourceClayLumpBundle</append>
 </configs>
