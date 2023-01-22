@@ -4,6 +4,8 @@
     <set xpath="/items/item[contains(@name, 'ShotgunShell')]/property[@name='Stacknumber']/@value">1000</set>
     <set xpath="/items/item[contains(@name, 'ShotgunSlug')]/property[@name='Stacknumber']/@value">1000</set>
     <set xpath="/items/item[contains(@name, '9mmBullet')]/property[@name='Stacknumber']/@value">2000</set>
+    <set xpath="/items/item[contains(@name, 'food')]/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[contains(@name, 'drug')]/property[@name='Stacknumber']/@value">50</set>
 	<!-- <set xpath="/items/item[contains(@name, 'SteelCasing')]/property[@name='Stacknumber']/@value">2000</set> -->
     <set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">250</set>
