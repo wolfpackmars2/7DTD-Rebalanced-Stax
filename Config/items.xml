@@ -6,8 +6,8 @@
     <set xpath="/items/item[contains(@name, '9mmBullet')]/property[@name='Stacknumber']/@value">2000</set>
     <set xpath="/items/item[contains(@name, 'food')]/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[contains(@name, 'drug')]/property[@name='Stacknumber']/@value">50</set>
-	<!-- <set xpath="/items/item[contains(@name, 'SteelCasing')]/property[@name='Stacknumber']/@value">2000</set> -->
-    <set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">250</set>
+    <!-- <set xpath="/items/item[contains(@name, 'SteelCasing')]/property[@name='Stacknumber']/@value">2000</set> -->
+    <!-- <set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">250</set> -->
     <set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='Stacknumber']/@value">250</set>
@@ -17,7 +17,7 @@
     <set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">250</set>
-	<!-- <set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">250</set> -->
+    <!-- <set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">250</set> -->
     <set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">250</set>
     <set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">250</set>
